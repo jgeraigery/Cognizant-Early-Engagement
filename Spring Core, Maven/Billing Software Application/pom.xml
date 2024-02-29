@@ -15,17 +15,17 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<!-- Spring -->
-		<spring-framework.version>4.3.0.RELEASE</spring-framework.version>
+		<spring-framework.version>4.3.30.RELEASE</spring-framework.version>
 
 		<!-- Hibernate / JPA -->
 		<hibernate.version>4.2.1.Final</hibernate.version>
 
 		<!-- Logging -->
 		<logback.version>1.0.13</logback.version>
-		<slf4j.version>1.7.5</slf4j.version>
+		<slf4j.version>1.7.36</slf4j.version>
 
 		<!-- Test -->
-		<junit.version>4.13.1</junit.version>
+		<junit.version>4.13.2</junit.version>
 
 	</properties>
 	
@@ -72,7 +72,7 @@
 		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
-		    <version>8.0.22</version>
+		    <version>8.0.33</version>
 		</dependency>
 		
 		<!-- Test Artifacts -->
